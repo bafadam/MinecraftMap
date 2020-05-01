@@ -23,11 +23,12 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "Shitty Hogwarts"
+        "Shitty Hogwarts Overworld",
+        "Shitty Hogwarts Nether - nether"
     ],
     "map": {
         "debug": true,
-        "cacheTag": "1588370164",
+        "cacheTag": "1588370926",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -42,29 +43,52 @@ var overviewerConfig = {
     "tilesets": [
         {
             "name": "Shitty Hogwarts",
-            "zoomLevels": 6,
+            "zoomLevels": 5,
             "defaultZoom": 1,
-            "maxZoom": 6,
+            "maxZoom": 5,
             "path": "normalrender",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "Shitty Hogwarts",
-            "last_rendertime": 1588288950,
+            "world": "Shitty Hogwarts Overworld",
+            "last_rendertime": 1588342806,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
             "showlocationmarker": true,
             "center": [
-                219,
-                80,
-                85
+                0,
+                96,
+                32
             ],
             "minZoom": 0,
             "spawn": [
-                219,
-                80,
-                85
+                0,
+                96,
+                32
             ],
+            "north_direction": 0
+        },
+        {
+            "name": "Shitty Hogwarts Nether",
+            "zoomLevels": 5,
+            "defaultZoom": 1,
+            "maxZoom": 5,
+            "path": "netherrender",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "Shitty Hogwarts Nether - nether",
+            "last_rendertime": 1588342806,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                0,
+                64,
+                0
+            ],
+            "minZoom": 0,
+            "spawn": false,
             "north_direction": 0
         }
     ]
