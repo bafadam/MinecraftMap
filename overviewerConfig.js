@@ -28,7 +28,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": true,
-        "cacheTag": "1588587222",
+        "cacheTag": "1588590824",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -50,7 +50,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "Shitty Hogwarts Overworld",
-            "last_rendertime": 1588587021,
+            "last_rendertime": 1588590621,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -77,7 +77,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "Shitty Hogwarts Nether - nether",
-            "last_rendertime": 1588587021,
+            "last_rendertime": 1588590735,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
