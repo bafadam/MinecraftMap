@@ -28,7 +28,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": true,
-        "cacheTag": "1588634114",
+        "cacheTag": "1588638045",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -43,14 +43,14 @@ var overviewerConfig = {
     "tilesets": [
         {
             "name": "Shitty Hogwarts",
-            "zoomLevels": 8,
+            "zoomLevels": 9,
             "defaultZoom": 1,
-            "maxZoom": 8,
+            "maxZoom": 9,
             "path": "normalrender",
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "Shitty Hogwarts Overworld",
-            "last_rendertime": 1588633822,
+            "last_rendertime": 1588637539,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -77,7 +77,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "Shitty Hogwarts Nether - nether",
-            "last_rendertime": 1588633821,
+            "last_rendertime": 1588637422,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
